@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Register :: Lukas - Car Parts Store eCommerce HTML Template</title>
+    <title>Motoverse</title>
 
     <!--== Favicon ==-->
     <link
       rel="shortcut icon"
-      href="assets/img/favicon.ico"
+      href="assets/img/logo-light.png"
       type="image/x-icon"
     />
-
     <!--== Google Fonts ==-->
     <link
       href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700%7CPoppins:400,400i,500,600&display=swap"
@@ -45,20 +44,24 @@
     <!--== Helper Min CSS ==-->
     <link href="assets/css/helper.min.css" rel="stylesheet" />
     <!-- endbuild -->
-
-    <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-
+  <style>
+    .service-item h3 {
+      font-size: 24px;
+      margin: 0px 0px 20px;
+    }
+    .service-item {
+      padding: 20px;
+      border: 1px solid #e3e3e3;
+    }
+  </style>
   <body>
     <!--== Start Header Area ==-->
     <header class="header-area">
       <div class="container container-wide">
         <div class="row align-items-center">
-          <div class="col-sm-4 col-lg-2">
-            <div class="site-logo text-center text-sm-start">
+          <div class="col-sm-4 col-lg-2 col-6">
+            <div class="site-logo text-sm-start">
               <a href="index.html"
                 ><img src="assets/img/logo.png" alt="Logo"
               /></a>
@@ -68,148 +71,24 @@
           <div class="col-lg-7 d-none d-lg-block">
             <div class="site-navigation">
               <ul class="main-menu nav">
-                <li class="has-submenu">
-                  <a href="index.html">Home</a>
-                  <ul class="sub-menu">
-                    <li><a href="index.html">Home 1</a></li>
-                    <li><a href="index-2.html">Home 2</a></li>
-                    <li><a href="index-boxed.html">Home Box Layout</a></li>
-                  </ul>
-                </li>
+                <li class="has-submenu"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li class="has-submenu">
-                  <a href="shop.html">Shop</a>
-                  <ul class="sub-menu">
-                    <li>
-                      <a href="shop-left-sidebar.html">Shop Left Sidebar</a>
-                    </li>
-                    <li>
-                      <a href="shop-right-sidebar.html">Shop Right Sidebar</a>
-                    </li>
-                    <li><a href="single-product.html">Single Product</a></li>
-                  </ul>
+                  <a href="services.html">Services</a>
                 </li>
                 <li class="has-submenu">
-                  <a href="blog.html">blog</a>
-                  <ul class="sub-menu">
-                    <li>
-                      <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                    </li>
-                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                    <li><a href="blog-details.html">Single Blog</a></li>
-                    <li>
-                      <a href="blog-details-sidebar.html"
-                        >Single Blog Sidebar</a
-                      >
-                    </li>
-                  </ul>
+                  <a href="products.html">Products</a>
                 </li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li class="has-submenu">
-                  <a href="index.html">Pages</a>
-                  <ul class="sub-menu">
-                    <li><a href="cart.html">Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                    <li><a href="wishlist.html">Wishlist</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Register</a></li>
-                  </ul>
-                </li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="col-sm-8 col-lg-3">
+          <div class="col-sm-8 col-lg-3 col-6">
             <div
-              class="site-action d-flex justify-content-center justify-content-sm-end align-items-center"
+              class="site-action d-flex justify-content-end align-items-center"
             >
-              <ul class="login-reg-nav nav">
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-              </ul>
-
-              <div class="mini-cart-wrap">
-                <a href="cart.html" class="btn-mini-cart">
-                  <i class="ion-bag"></i>
-                  <span class="cart-total">3</span>
-                </a>
-
-                <div class="mini-cart-content">
-                  <div class="mini-cart-product">
-                    <div class="mini-product">
-                      <div class="mini-product__thumb">
-                        <a href="single-product.html"
-                          ><img
-                            src="assets/img/product/product-1.png"
-                            alt="product"
-                        /></a>
-                      </div>
-                      <div class="mini-product__info">
-                        <h2 class="title">
-                          <a href="single-product.html">Auto Clutch & Brake</a>
-                        </h2>
-
-                        <div class="mini-calculation">
-                          <p class="price">5 x <span>$20.33</span></p>
-                          <button class="remove-pro">
-                            <i class="ion-trash-b"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="mini-product">
-                      <div class="mini-product__thumb">
-                        <a href="single-product.html"
-                          ><img
-                            src="assets/img/product/product-2.png"
-                            alt="product"
-                        /></a>
-                      </div>
-                      <div class="mini-product__info">
-                        <h2 class="title">
-                          <a href="single-product.html"
-                            >Leather Steering Wheel</a
-                          >
-                        </h2>
-
-                        <div class="mini-calculation">
-                          <p class="price">5 x <span>$20.33</span></p>
-                          <button class="remove-pro">
-                            <i class="ion-trash-b"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="mini-product">
-                      <div class="mini-product__thumb">
-                        <a href="single-product.html"
-                          ><img
-                            src="assets/img/product/product-3.png"
-                            alt="product"
-                        /></a>
-                      </div>
-                      <div class="mini-product__info">
-                        <h2 class="title">
-                          <a href="single-product.html"
-                            >Leather Steering Wheel</a
-                          >
-                        </h2>
-
-                        <div class="mini-calculation">
-                          <p class="price">5 x <span>$20.33</span></p>
-                          <button class="remove-pro">
-                            <i class="ion-trash-b"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div class="responsive-menu d-lg-none">
                 <button class="btn-menu">
                   <i class="fa fa-bars"></i>
@@ -232,12 +111,11 @@
           <div class="col-12 text-center">
             <div class="page-header-content">
               <div class="page-header-content-inner">
-                <h1>Register</h1>
+                <h1>Services</h1>
 
                 <ul class="breadcrumb">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="shop.html">Pages</a></li>
-                  <li class="current"><a href="#">Register</a></li>
+                  <li class="current"><a href="services.html">Services</a></li>
                 </ul>
               </div>
             </div>
@@ -249,34 +127,130 @@
 
     <!--== Start Page Content Wrapper ==-->
     <div class="page-content-wrapper sp-y">
-      <div class="login-page-content-wrap">
-        <div class="container">
+      <div class="blog-details-page-wrapper">
+        <div class="container container-wide">
           <div class="row">
-            <div class="col-lg-8 col-md-12 ml-auto mr-auto">
-              <div class="register-form-style">
-                <form action="#" method="post">
-                  <input type="text" name="user-name" placeholder="Username" />
-                  <input name="user-email" placeholder="Email" type="email" />
-                  <input
-                    type="password"
-                    name="user-password"
-                    placeholder="Password"
+            <div class="col-12">
+              <article class="blog-post-details">
+                <!-- <figure class="blog-post-thumb">
+                  <img
+                    src="assets/img/services/car-services-header.jpg"
+                    alt="Car Services"
                   />
-                  <div class="login-toggle-btn">
-                    <input id="register-check" type="checkbox" />
-                    <label for="register-check">Remember me</label>
-                    <a href="#">Forgot Password?</a>
+                </figure> -->
+
+                <div class="blog-post-txt-wrap">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Interior Cleaning</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Interior Cleaning"
+                          />
+                        </figure>
+                        <p>
+                          Keep your car's interior spotless with our detailed
+                          cleaning service. We remove stains, vacuum thoroughly,
+                          and ensure every corner looks brand new.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Seat Cover Installation</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Seat Cover Installation"
+                          />
+                        </figure>
+                        <p>
+                          Upgrade your car's comfort and style with custom seat
+                          covers. We offer a wide range of designs to match your
+                          preferences at your choice.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Full Car Maintenance</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Full Car Maintenance"
+                          />
+                        </figure>
+                        <p>
+                          Ensure your vehicle stays in top shape with our
+                          comprehensive maintenance service, including oil
+                          changes, brake checks, and more.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Ceramic Coating</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Ceramic Coating"
+                          />
+                        </figure>
+                        <p>
+                          Protect your car's paint with our advanced ceramic
+                          coating technology. It provides a glossy finish and
+                          long-lasting durability.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Spare Parts Replacement</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Spare Parts Replacement"
+                          />
+                        </figure>
+                        <p>
+                          We stock high-quality spare parts for all car models.
+                          Our experts ensure precise installation for optimal
+                          performance.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <div class="service-item">
+                        <h3>Teflon Coating</h3>
+                        <figure>
+                          <img
+                            src="https://placehold.co/600x400"
+                            alt="Teflon Coating"
+                          />
+                        </figure>
+                        <p>
+                          Add an extra layer of protection to your car's
+                          exterior with our teflon coating service. It resists
+                          scratches and enhances shine.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="login-btn">
-                    <button type="submit">Login</button>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!--== End Page Content Wrapper ==-->
 
     <!--== Start Footer Area Wrapper ==-->
